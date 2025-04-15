@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+    themes: light --default, dark;
+}
+
+@font-face {
+    font-family: "EBGaramond";
+    src: url("../src/assets/fonts/EBGaramond-Regular.ttf");
+}
+
+@theme {
+    --font-garamond: "EBGaramond", serif;
+}
+
+body {
+    font-family: var(--font-garamond);
+}
