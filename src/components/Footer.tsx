@@ -5,10 +5,10 @@ const Footer: React.FC = () => {
     return (
         <footer className="footer footer-horizontal footer-center bg-[#ECE6D1] text-base-content rounded p-10">
             <nav className="grid grid-flow-col gap-4 text-[#4A3530]">
-                <a className="link link-hover">Inicio</a>
-                <a className="link link-hover">Habitaciones</a>
-                <a className="link link-hover">Servicios</a>
-                <a className="link link-hover">Contacto</a>
+                <a className="link link-hover" href='#habitaciones'>Habitaciones</a>
+                <a className="link link-hover" href='#servicios'>Servicios</a>
+                <a className="link link-hover" href='#turismo'>Turismo</a>
+                <a className="link link-hover" href='#contacto'>Contacto</a>
             </nav>
             <nav>
                 <div className="grid grid-flow-col gap-4">

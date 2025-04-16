@@ -17,9 +17,15 @@ const Hero: React.FC = () => {
                     <p className="mb-5 text-lg lg:text-xl">
                         En el corazón de Ocaña, el Hotel Santa Elena te ofrece una experiencia de descanso única, donde la elegancia clásica y la calidez del servicio se unen para hacerte sentir como en casa.
                     </p>
-                    <button className="btn w-full shadow-none lg:w-60 border-none rounded-none text-[#4A3530] bg-[#ECE6D1] hover:bg-[#4A3530] hover:text-white transition duration-300 text-sm mt-12">
+
+                    <a
+                        href="https://wa.me/573144822770"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn w-full shadow-none lg:w-60 border-none rounded-none text-[#4A3530] bg-[#ECE6D1] hover:bg-[#4A3530] hover:text-white transition duration-300 text-sm mt-12"
+                    >
                         RESERVAR
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>

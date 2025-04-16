@@ -3,6 +3,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import Reviews from './components/Reviews'
 import Rooms from './components/Rooms'
 import Services from './components/Services'
 import Timeline from './components/Timeline'
@@ -19,6 +20,7 @@ function App() {
       <Rooms />
       <Services />
       <Timeline />
+      <Reviews />
       <Contact />
       <Footer />
       <Whatsapp />

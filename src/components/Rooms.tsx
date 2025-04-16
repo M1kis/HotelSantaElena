@@ -207,7 +207,7 @@ const Rooms: React.FC = () => {
                                         <p>3-6</p>
                                     </div>
                                 </div>
-                                <p>Espaciosa y versátil, pensada para familias que desean descansar juntas en un entorno cálido y acogedor.</p>
+                                <p>Aún más amplia y cómoda, ideal para familias grandes que desean compartir momentos en un entorno cálido y acogedor.</p>
                                 <hr />
                                 <div className='flex'>
                                     <p>Aire Acondicionado</p>

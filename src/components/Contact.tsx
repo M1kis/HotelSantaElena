@@ -24,9 +24,9 @@ const Contact: React.FC = () => {
                     {/* Redes (Movile) */}
                     <div className='flex lg:hidden border-1 justify-center items-center p-2 gap-5'>
                         <p>Encuéntranos también en</p>
-                        <a href=""><FaFacebook size={20} /></a>
-                        <a href=""><FaInstagram size={20} /></a>
-                        <a href=""><FaWhatsapp size={20} /></a>
+                        <a href="https://www.facebook.com/profile.php?id=61574948311031" target='_blank'><FaFacebook size={20} /></a>
+                        <a href="https://www.instagram.com/hotel.santaelena?igsh=YzljYTk1ODg3Zg==" target='_blank'><FaInstagram size={20} /></a>
+                        <a href="https://wa.me/573144822770" target='blank'><FaWhatsapp size={20} /></a>
                     </div>
 
                     {/* Formulario */}
