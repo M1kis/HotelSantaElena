@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Rooms from './components/Rooms'
 import Services from './components/Services'
+import Timeline from './components/Timeline'
 import Whatsapp from './components/Whatsapp'
 import './index.css'
 
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Rooms />
       <Services />
+      <Timeline />
       <Contact />
       <Footer />
       <Whatsapp />

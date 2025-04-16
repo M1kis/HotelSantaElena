@@ -16,9 +16,14 @@ const About: React.FC = () => {
                     <p className="text-[#4A3530]">
                         Desde nuestras habitaciones cuidadosamente ambientadas hasta cada detalle en los espacios comunes, buscamos ofrecer a nuestros huéspedes una experiencia única que combine comodidad, historia y hospitalidad.
                     </p>
-                    <button className="btn lg:w-60 border rounded-none border-[#4A3530] text-[#4A3530] bg-transparent hover:bg-[#4A3530] hover:text-white transition duration-300 text-sm mt-12">
-                        VER HABITACIONES
-                    </button>
+                    <a
+                        href="https://wa.me/573144822770?text=Hola%2C%20quisiera%20más%20información%20sobre%20el%20Hotel%20Santa%20Elena"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn lg:w-60 border rounded-none border-[#4A3530] text-[#4A3530] bg-transparent hover:bg-[#4A3530] hover:text-white transition duration-300 text-sm mt-12"
+                    >
+                        QUIERO HOSPEDARME
+                    </a>
                 </div>
 
                 {/* Imagen */}

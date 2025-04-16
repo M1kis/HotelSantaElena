@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../assets/Images/Hotel_Logo.webp';
 
 
 const Navbar: React.FC = () => {
@@ -9,16 +10,24 @@ const Navbar: React.FC = () => {
 
                     {/* Sección izquierda: Logo y menú hamburguesa */}
                     <div className="navbar-start">
-                        <a href="#" className="text-lg font-semibold">Hotel Santa Elena</a>
+                        <a href="#" className="text-lg font-semibold">
+                            <picture>
+                                <img
+                                    className="rounded-none w-[120px] h-[50px]"
+                                    src={Logo}
+                                    alt="Logo Hotel Santa Elena"
+                                />
+                            </picture>
+                        </a>
                     </div>
 
                     {/* Sección Final: Menú en escritorio */}
                     <div className="navbar-end hidden lg:flex">
                         <ul className="menu text-lg menu-horizontal px-1">
-                            <li><a href="#home">Inicio</a></li>
-                            <li><a href="#about">Habitaciones</a></li>
-                            <li><a href="#services">Servicios</a></li>
-                            <li><a href="#rooms">Contacto</a></li>
+                            <li><a href="#habitaciones">Habitaciones</a></li>
+                            <li><a href="#servicios">Servicios</a></li>
+                            <li><a href="#turismo">Turismo</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
                         </ul>
                     </div>
 
@@ -27,7 +36,7 @@ const Navbar: React.FC = () => {
                         <div className="dropdown dropdown-end">
                             <label
                                 tabIndex={0}
-                                className="btn btn-ghost lg:hidden"
+                                className="btn btn-ghost lg:hidden text-xl"
                                 aria-label="Abrir menú"
                             >
                                 ☰
@@ -36,10 +45,10 @@ const Navbar: React.FC = () => {
                                 tabIndex={0}
                                 className="menu menu-lg dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 right-0"
                             >
-                                <li><a href="#home">Inicio</a></li>
-                                <li><a href="#about">Habitaciones</a></li>
-                                <li><a href="#services">Servicios</a></li>
-                                <li><a href="#rooms">Contacto</a></li>
+                                <li><a href="#habitaciones">Habitaciones</a></li>
+                                <li><a href="#servicios">Servicios</a></li>
+                                <li><a href="#turismo">Turismo</a></li>
+                                <li><a href="#contacto">Contacto</a></li>
                             </ul>
                         </div>
                     </div>

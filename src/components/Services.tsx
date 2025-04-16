@@ -3,7 +3,7 @@ import { FaWifi, FaCar, FaCoffee, FaConciergeBell } from "react-icons/fa";
 
 const Services: React.FC = () => {
     return (
-        <div className='px-[16px]'>
+        <div id="servicios" className='px-[16px]'>
             <div className="container mx-auto px-4 py-12 flex flex-col justify-center">
                 {/* Título */}
                 <div className="flex flex-col justify-center">

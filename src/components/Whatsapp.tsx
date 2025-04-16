@@ -5,7 +5,7 @@ const Whatsapp: React.FC = () => {
     return (
         <div>
             <a
-                href="https://wa.me/573152362085?text=Hola%20me%20interesa%20su%20hotel"
+                href="https://wa.me/573144822770"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="fixed bottom-4 right-4 bg-[#4A3530] hover:bg-[#69473e] text-white p-3 rounded-full shadow-lg hover:shadow-xl transition duration-300"

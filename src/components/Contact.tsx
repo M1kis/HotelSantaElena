@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 const Contact: React.FC = () => {
     return (
-        <div className='px-[16px] mb-10'>
+        <div id="contacto" className='px-[16px] mb-10'>
             <div className="container mx-auto px-4 py-12 flex flex-col justify-center">
                 {/* Título */}
                 <div className="flex flex-col justify-center">
@@ -92,9 +92,9 @@ const Contact: React.FC = () => {
                                 </div>
                                 <div className='flex-[2] hidden lg:flex justify-center items-center gap-5'>
                                     <p>Encuéntranos también en</p>
-                                    <a href=""><FaFacebook size={20} /></a>
-                                    <a href=""><FaInstagram size={20} /></a>
-                                    <a href=""><FaWhatsapp size={20} /></a>
+                                    <a href="https://www.facebook.com/profile.php?id=61574948311031" target='_blank'><FaFacebook size={20} /></a>
+                                    <a href="https://www.instagram.com/hotel.santaelena?igsh=YzljYTk1ODg3Zg==" target='_blank'><FaInstagram size={20} /></a>
+                                    <a href="https://wa.me/573144822770" target='blank'><FaWhatsapp size={20} /></a>
                                 </div>
                             </div>
                         </form>
