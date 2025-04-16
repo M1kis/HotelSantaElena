@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { FaWifi, FaCar, FaCoffee, FaConciergeBell } from "react-icons/fa";
 
 const Reviews: React.FC = () => {
 
