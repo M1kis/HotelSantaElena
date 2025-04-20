@@ -56,7 +56,7 @@ const Timeline: React.FC = () => {
                         </li>
                         <li>
                             <hr />
-                            <div className="timeline-end">0.9 Km</div>
+                            <div className="timeline-end">1.2 Km</div>
                             <div className="timeline-middle">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -71,9 +71,9 @@ const Timeline: React.FC = () => {
                             </div>
                             <div className="timeline-start timeline-box">
                                 <div className='flex flex-col items-center justify-center gap-2'>
-                                    <h3 className='text-center'>Columna de la Libertad de los Esclavos</h3>
+                                    <h3 className='text-center'>Museo Antón García de Bonilla</h3>
                                     <a
-                                        href="https://maps.app.goo.gl/mrS6XYAfmoH9yjCK6"
+                                        href="https://maps.app.goo.gl/1Y8eamtbm516TYMS6"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -81,7 +81,7 @@ const Timeline: React.FC = () => {
                                             <img
                                                 className="rounded-none"
                                                 src={Tourism2}
-                                                alt="Catedral de Santa Ana"
+                                                alt="Museo Antón García de Bonilla"
                                                 width={200}
                                                 height={180}
                                             />
@@ -93,7 +93,7 @@ const Timeline: React.FC = () => {
                         </li>
                         <li>
                             <hr />
-                            <div className="timeline-start">1.2 Km</div>
+                            <div className="timeline-start">1.4 Km</div>
                             <div className="timeline-middle">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -108,9 +108,9 @@ const Timeline: React.FC = () => {
                             </div>
                             <div className="timeline-end timeline-box">
                                 <div className='flex flex-col items-center justify-center gap-2'>
-                                    <h3 className='text-center'>Museo Antón García de Bonilla</h3>
+                                    <h3 className='text-center'>Complejo Historico Gran Convención</h3>
                                     <a
-                                        href="https://maps.app.goo.gl/mev73wZr2eSdrqnw7"
+                                        href="https://maps.app.goo.gl/hG3Q72R2STvLEyMb6"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -118,7 +118,7 @@ const Timeline: React.FC = () => {
                                             <img
                                                 className="rounded-none"
                                                 src={Tourism3}
-                                                alt="Catedral de Santa Ana"
+                                                alt="Complejo Historico Gran Convención"
                                                 width={200}
                                                 height={180}
                                             />
@@ -129,7 +129,7 @@ const Timeline: React.FC = () => {
                         </li>
                         <li>
                             <hr />
-                            <div className="timeline-end">1.4 Km</div>
+                            <div className="timeline-end">6.2 Km</div>
                             <div className="timeline-middle">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -144,9 +144,9 @@ const Timeline: React.FC = () => {
                             </div>
                             <div className="timeline-start timeline-box">
                                 <div className='flex flex-col items-center justify-center gap-2'>
-                                    <h3 className='text-center'>Complejo Histórico la Gran Convención</h3>
+                                    <h3 className='text-center'>Los Estoraques</h3>
                                     <a
-                                        href="https://maps.app.goo.gl/qqbVpienemF2LogZ8"
+                                        href="https://maps.app.goo.gl/rUWqCwhBHHWW7H8eA"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -154,7 +154,7 @@ const Timeline: React.FC = () => {
                                             <img
                                                 className="rounded-none"
                                                 src={Tourism4}
-                                                alt="Catedral de Santa Ana"
+                                                alt="Los Estoraques"
                                                 width={200}
                                                 height={180}
                                             />
@@ -165,7 +165,7 @@ const Timeline: React.FC = () => {
                         </li>
                         <li>
                             <hr />
-                            <div className="timeline-start">8.0 Km</div>
+                            <div className="timeline-start">7.9 Km</div>
                             <div className="timeline-middle">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -190,7 +190,7 @@ const Timeline: React.FC = () => {
                                             <img
                                                 className="rounded-none"
                                                 src={Tourism5}
-                                                alt="Catedral de Santa Ana"
+                                                alt="Santuario de la virgen de Torcoroma"
                                                 width={200}
                                                 height={180}
                                             />
